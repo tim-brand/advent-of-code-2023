@@ -1,5 +1,5 @@
 
-const inputLines = (await Bun.file(import.meta.dir + '/part-1-input').text()).split('\n')
+const inputLines = (await Bun.file(import.meta.dir + '/input').text()).split('\n')
 let sum = 0
 inputLines.forEach((line, i) => {
     const digits = line.replaceAll(/[a-z]*/g, "")

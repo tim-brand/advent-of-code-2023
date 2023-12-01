@@ -1,5 +1,5 @@
 
-const inputLines = (await Bun.file(import.meta.dir + '/part-2-input').text()).split('\n')
+const inputLines = (await Bun.file(import.meta.dir + '/input').text()).split('\n')
 
 const numberMap: Record<string, string> = {
     'one': "1",
