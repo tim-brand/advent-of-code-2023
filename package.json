@@ -3,11 +3,13 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
+    "plop": "plop",
     "start": "bun run index.ts",
     "dev": "bun run --watch index.ts"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "plop": "^4.0.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
