@@ -1,5 +1,5 @@
 const parseInput = (input: string): string[] => {
-    return input.split('\n')
+    return input.split('\n').map(line => line.trim()).filter(line => line.length > 0);
 };
 
 export const part1 = (input: string): number => {
